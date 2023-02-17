@@ -4,12 +4,10 @@
 /**
  * main -Determines if a number is positive,negative or zero number.
  *
- * Return:Always 0 to mean success
- */ 
+ * Return:Always 0 to mean success*/
 int main(void)
 {
 	int n;
-	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
