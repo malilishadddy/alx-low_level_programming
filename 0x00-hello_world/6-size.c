@@ -7,6 +7,8 @@
 int main(void)
 /**
 *responsible for the checking
+*
+*
 */
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
