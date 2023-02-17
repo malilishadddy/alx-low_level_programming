@@ -1,10 +1,13 @@
 #include <stdio.h>
 /**
- * the main does the orintingdoes printing
+ * main-prints the size of various types based on
+ *the computer it is compiled and run on
  * Return:Always 0.
- * \
  */
-int main (void)//Does the checking
+int main(void)
+/**
+*responsible for the checking
+*/
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
